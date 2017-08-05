@@ -4,7 +4,7 @@
   "description": "Laravel Mix-ish interface for Webpack",
   "main": "index.js",
   "scripts": {
-    "test": "-"
+    "test": "mocha test/**/*.spec.js"
   },
   "author": "John Eriksson <@ranbogmord>",
   "license": "ISC",
@@ -19,5 +19,9 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.4.1",
     "webpack-clear-console": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
   }
 }
