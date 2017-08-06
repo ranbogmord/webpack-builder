@@ -15,3 +15,5 @@ const config = builder
 
 module.exports = config;
 ```
+
+This will output the files to `./dist/{js,css}`
